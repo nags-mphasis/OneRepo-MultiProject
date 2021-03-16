@@ -6,16 +6,16 @@
  * User Manual available at https://docs.gradle.org/6.3/userguide/java_library_plugin.html
  */
 
-//plugins {
+plugins {
     // Apply the java-library plugin to add support for Java Library
-//    id 'java-library'
-//}
+    id 'java-library'
+}
 
-//repositories {
+repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
-//    jcenter()
-//}
+    jcenter()
+}
 
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
